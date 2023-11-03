@@ -1,0 +1,36 @@
+#!/usr/bin/expect
+
+# Get the firmware password from the command-line argument
+set firmware_password [lindex $argv 0]
+
+# Print the firmware password
+# puts "Using firmware password: $firmware_password"
+
+# Spawn the firmwarepasswd command
+spawn firmwarepasswd -verify
+
+# Expect the password prompt
+#expect "Password:"
+
+# Send the firmware password
+#send "admin1234567\r"
+
+# Expect the password prompt
+expect "Enter password:"
+
+# Send the firmware password
+send "$firmware_password\r"
+
+# Wait for the command to finish and display its output
+expect eof
+
+
+lassign [wait] pid spawnid os_error_flag value
+
+if {$os_error_flag == 0} {
+    puts "exit status: $value"
+} else {
+    puts "errno: $value"
+}
+
+exit $value
