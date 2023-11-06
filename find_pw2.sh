@@ -7,15 +7,17 @@ password_list_file="$1"
 #read -s -p "Enter administrator password for sudo: " admin_password
 #echo
 
+script_dir=$(dirname "$0")
+
 admin_password=admin1234567
 
 # Loop through each password in the file
 while IFS= read -r password; do
     # Run the verification command with sudo and capture the exit code
-    #sudo -n firmwarepasswd -verify <<< "$password" 
-    #<<< "$admin_password" 
+    #sudo -n firmwarepasswd -verify <<< "$password"
+    #<<< "$admin_password"
     #sudo -S -l <<< "$admin_password" >/dev/null 2>&1
-    ~/test_pw2.expect "$password" #>/dev/null 2>&1
+    $script_dir/test_pw2.expect "$password" #>/dev/null 2>&1
     exit_code=$?
 
     echo "Exit code: $exit_code, $password"
