@@ -17,7 +17,7 @@ while IFS= read -r password; do
     #sudo -n firmwarepasswd -verify <<< "$password"
     #<<< "$admin_password"
     #sudo -S -l <<< "$admin_password" >/dev/null 2>&1
-    $script_dir/test_pw2.expect "$password" #>/dev/null 2>&1
+    $script_dir/test_pw2.expect "$password" >/dev/null 2>&1
     exit_code=$?
 
     echo "Exit code: $exit_code, $password"

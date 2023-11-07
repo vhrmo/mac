@@ -1,12 +1,18 @@
 import os
 
-FILE_FOLDER = '/Users/vlado/Projects/SecLists/Passwords'
+FILE_FOLDER = '/Users/admin/SecLists/Passwords'
 
 FILES_PROCESSED = [
     'xato-net-10-million-passwords-100000.txt',
     'Keyboard-Combinations.txt',
     'UserPassCombo-Jay.txt',
     'bt4-password.txt',
+    'Most-Popular-Letter-Passes.txt',
+    'darkweb2017-top10000.txt',
+    'darkweb2017-top1000.txt',
+    'darkweb2017-top100.txt',
+    'days.txt',
+    'months.txt',
 ]
 
 FILES_TO_PROCESS = [
