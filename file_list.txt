@@ -1,45 +1,34 @@
-     197 2020-200_most_used_passwords.txt
-     499 500-worst-passwords.txt
-    9604 Keyboard-Combinations.txt
-   47603 Most-Popular-Letter-Passes.txt
-      25 PHP-Magic-Hashes.txt
-     727 UserPassCombo-Jay.txt
- 1652903 bt4-password.txt
-    1041 cirt-default-passwords.txt
-       4 citrix.txt
-      82 clarkson-university-82.txt
- 1471056 darkc0de.txt
-      10 darkweb2017-top10.txt
-      99 darkweb2017-top100.txt
-     999 darkweb2017-top1000.txt
-    9999 darkweb2017-top10000.txt
-    6240 days.txt
-       1 der-postillon.txt
- 5446758 dutch_common_wordlist.txt
- 4322843 dutch_passwordlist.txt
-     261 german_misc.txt
-   13431 months.txt
-  172696 mssql-passwords-nansh0u-guardicore.txt
- 3721224 openwall.net-all.txt
-   12645 probable-v2-top12000.txt
-    1575 probable-v2-top1575.txt
-     207 probable-v2-top207.txt
- 2536004 pwds_to_process.txt
-   19994 richelieu-french-top20000.txt
-    5000 richelieu-french-top5000.txt
-    3502 scraped-JWT-secrets.txt
-    5390 seasons.txt
-       4 stupid-ones-in-production.txt
-     399 twitter-banned.txt
-    3629 unkown-azul.txt
+       197 2020-200_most_used_passwords.txt
+       499 500-worst-passwords.txt
+        25 PHP-Magic-Hashes.txt
+       727 UserPassCombo-Jay.txt
+     1 041 cirt-default-passwords.txt
+         4 citrix.txt
+        82 clarkson-university-82.txt
+ 1 471 056 darkc0de.txt
+         1 der-postillon.txt
+ 5 446 758 dutch_common_wordlist.txt
+ 4 322 843 dutch_passwordlist.txt
+       261 german_misc.txt
+   172 696 mssql-passwords-nansh0u-guardicore.txt
+    12 645 probable-v2-top12000.txt
+     1 575 probable-v2-top1575.txt
+       207 probable-v2-top207.txt
+    19 994 richelieu-french-top20000.txt
+     5 000 richelieu-french-top5000.txt
+     3 502 scraped-JWT-secrets.txt
+     5 390 seasons.txt
+         4 stupid-ones-in-production.txt
+       399 twitter-banned.txt
+     3 629 unkown-azul.txt
     
-      10 xato-net-10-million-passwords-10.txt
-     100 xato-net-10-million-passwords-100.txt
-    1000 xato-net-10-million-passwords-1000.txt
-   10000 xato-net-10-million-passwords-10000.txt
-  100000 xato-net-10-million-passwords-100000.txt
- 1000000 xato-net-10-million-passwords-1000000.txt
-  755 995 xato-net-10-million-passwords-dup.txt
- 5 189 454 xato-net-10-million-passwords.txt
+         10 xato-net-10-million-passwords-10.txt
+        100 xato-net-10-million-passwords-100.txt
+      1 000 xato-net-10-million-passwords-1000.txt
+     10 000 xato-net-10-million-passwords-10000.txt
+    100 000 xato-net-10-million-passwords-100000.txt
+  1 000 000 xato-net-10-million-passwords-1000000.txt
+    755 995 xato-net-10-million-passwords-dup.txt
+  5 189 454 xato-net-10-million-passwords.txt
  
  26 523 210 total
