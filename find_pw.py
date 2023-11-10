@@ -18,7 +18,7 @@ parser.add_argument('-t', '--timeout', help='The timeout for the command.', type
 parser.add_argument('-v', '--verbose', help='Verbose output.', action='store_true')
 args = parser.parse_args()
 
-command = "sudo -S -l"
+command = "firmwarepasswd -verify"
 
 # check if the file exists
 if not os.path.isfile(args.file):
@@ -40,17 +40,21 @@ results = []
 
 # test each pwd against the command
 for pwd in pwds:
-    if args.verbose:
-        print(f"Testing {pwd}...")
+    # print(f"Testing {pwd}...")
     child = pexpect.spawn(command, timeout=args.timeout)
-    child.expect('Password:')
-    child.sendline(pwd+'\n')
+    child.expect('Enter password:')
+    child.sendline(pwd)
     child.expect(pexpect.EOF)
-    if child.exitstatus == 0:
+
+    test_result = child.before.decode('utf-8')
+    # print(test_result)
+
+    if "Correct" in test_result:
         results.append(pwd)
         print(f"Password found: {pwd}")
-    else:
-        print(f"Password not found: {pwd}")
+        sys.exit(1)
+    # else:
+    #     print(f"Password not found: {pwd}")
     child.close()
 
 
