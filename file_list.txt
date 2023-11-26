@@ -32,3 +32,16 @@
   5 189 454 xato-net-10-million-passwords.txt
  
  26 523 210 total
+
+
+
+
+-rw-r--r--  1 admin  staff   2261837 Nov 17 11:46 darkc0de.txt2
+-rw-r--r--  1 admin  staff     69223 Nov 17 12:19 darkc0de.txt2.out
+
+-rw-r--r--  1 admin  staff  68429712 Nov 17 11:58 dutch_common_wordlist.txt2
+-rw-r--r--  1 admin  staff     61559 Nov 17 12:19 dutch_common_wordlist.txt2.out
+-rw-r--r--  1 admin  staff  37835967 Nov 17 11:56 dutch_passwordlist.txt2
+-rw-r--r--  1 admin  staff     56475 Nov 17 12:19 dutch_passwordlist.txt2.out
+
+
